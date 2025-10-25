@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Funnel+Display:wght@300..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Giga:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+
+html, body {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: #1abc9c;
+}
+
+
+header {
+    text-align: center;
+    line-height: 40px;
+    background: #16a085;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+
+form {
+    height: 280px;
+    background: #fff;
+    padding: 30px 20px 25px 20px;
+}
+
+
+.container {
+    width: 380px;
+    border-radius: 5px;
+}
+
+
+.container form .input{
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+
+.container form .input input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+.container form .input i {
+    color: #fff;
+    height: 100%;
+    width: 45px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    background: #16a085;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.container form .input {
+    display: flex;
+    align-items: center;
+}
+
+
+.container form .input-btn {
+    height: 45px;
+    margin-bottom: 35px;
+}
+
+.container form .input-btn .pass {
+    /* border: 1px solid yellow; */
+    margin: -8px 0 20px 0;
+}
+
+
+.container form .input-btn .pass a {
+    color: #16a085;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.container form .input-btn .pass a:hover {
+    text-decoration: underline;
+}
+
+.container form .input-btn .signup-link {
+    margin-top: 5px;
+}
+
+
+.container form .input-btn input {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 0px;   
+    background: #1abc9c;
+    border:1px solid #16a085;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.container form .input-btn input:hover {
+    background-color: #16a085;
+}
+
+
+.container form .input-btn .signup-link {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container form .input-btn .signup-link a:hover {
+    text-decoration: underline;
+}
+
+.container form .input-btn .signup-link a {
+    color: #16a085;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
